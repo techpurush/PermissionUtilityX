@@ -2,15 +2,17 @@
 
 How to use:
 
+1)Add storage permission to your manifest.
+
 1)Add this at project level:
 
 maven { url 'https://jitpack.io' }
 
-2)Add this at app level:
+3)Add this at app level:
 
 implementation 'com.github.techpurush:PermissionUtilityX:Tag'
 
-3)Sample code implementation:
+4)Sample code implementation:
 
 
            PermissionUtilsX.Builder(getContext(), Manifest.permission.READ_EXTERNAL_STORAGE)
