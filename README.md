@@ -6,11 +6,13 @@ How to use:
 
 2)Add this at project level:
 
-maven { url 'https://jitpack.io' }
+        maven { url 'https://jitpack.io' }
+
 
 3)Add this at app level:
 
-implementation 'com.github.techpurush:PermissionUtilityX:Tag'
+    implementation 'com.github.techpurush:PermissionUtilityX:1.0.0'
+
 
 4)Sample code implementation:
 
