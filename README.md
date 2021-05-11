@@ -4,7 +4,7 @@ How to use:
 
 1)Add storage permission to your manifest.
 
-1)Add this at project level:
+2)Add this at project level:
 
 maven { url 'https://jitpack.io' }
 
